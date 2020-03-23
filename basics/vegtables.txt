@@ -1,0 +1,6 @@
+onion
+tomato
+radish
+zucchini
+squash
+pepper
