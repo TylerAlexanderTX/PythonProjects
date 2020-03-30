@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <title>Data Collector App</title>
+    <head>
+        <link href="../static/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Geocoder App</h1>
+            <h3>Please upload a CSV file. Column containing addresses should be named Address or address.</h3>
+            <div class="output">
+                {{text | safe}}
+            </div>
+            <form action="{{url_for('success_table'}}" method="POST">
+                <input type="file" accept=".csv" name="file">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
