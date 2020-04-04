@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="home">
+    <h1>Welcome to your home page</h1>
+</div>
+<div class="row">
+    <div class="column">
+        {{ars | safe}}
+    </div>
+    <div class="column">
+        {{reddit | safe}}
+    </div>
+</div>
+
+{% endblock %}

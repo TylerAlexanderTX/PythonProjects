@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(13, 0, 131);
+}
+
+.row {
+    display: flex;
+}
+
+.column { 
+    flex: 50%;
+}
