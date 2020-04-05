@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
-from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import SQLAlchemy
 from send_email import send_email
-from sqlalchemy.sql func
+from sqlalchemy.sql.functions import GenericFunction
 
 app=Flask(__name__)
 
